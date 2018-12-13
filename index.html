@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>USCB - University of South Carolina Beaufort</title>
+        <!-- ========== Favicons (Multiple Resolutions) ========== -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="apple-mobile-web-app-title" content="uscb" />
+        <meta name="application-name" content="uscb" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- ========== CSS Library Imports ========== -->
+        <link rel="stylesheet" href="styles/libs/normalize.css" />
+        <!-- ========== Custom CSS Imports ========== -->
+        <link rel="stylesheet" href="css/homepage-section_campus-options.css" />
+        <link rel="stylesheet" href="css/global-selectors.css" />
+        <link rel="stylesheet" href="css/jquery-slider.css" />
+        <link rel="stylesheet" href="css/top-all.css" />
+        <link rel="stylesheet" href="css/middle-homepage.css" />
+        <link rel="stylesheet" href="css/bottom-all.css" />
+        <!-- ========== webfonts ========== -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Economica:400,400i,700,700i" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.css" />
+    </head>
+    <body>
+        <!-- top navigation -->
+        <div id="top-nav-container">
+            <nav id="top-nav">
+                <ul>
+                    <li><a href="#">Prospective Students</a></li>
+                    <li><a href="#">Current Students</a></li>
+                    <li><a href="#">Parents</a></li>
+                    <li><a href="#">Military &amp; Veterans</a></li>
+                    <li><a href="#">Alumni</a></li>
+                    <li><a href="#">Community &amp; Visitors</a></li>
+                    <li><a href="#" class="last-link">Faculty &amp; Staff</a></li>
+                    <li>
+                        <!-- search form -->
+                        <form><label>Search</label> <input type="text" /> <input type="submit" value="&#128269;" /></form>
+                    </li>
+                </ul>
+            </nav>
+            <nav id="mobile-top-nav"></nav>
+        </div>
+        <!-- header for USCB logo -->
+        <div id="header-container">
+            <header id="logo-header">
+                <a href="index.html" alt="USCB Homepage"><div id="left-header-logo"></div></a>
+                <div id="right-header-image"></div>
+            </header>
+        </div>
+        <!-- main navigation -->
+        <div id="main-nav-container">
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#">About USCB</a></li>
+                    <li><a href="#">Admissions &amp; Aid</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="student-life.html">Student Life</a></li>
+                    <li><a href="athletics-and-recreation.html">Athletics</a></li>
+                    <li><a href="#">Giving to USCB</a></li>
+                    <li><a href="#">Arts &amp; Cultural Events</a></li>
+                    <li><a href="#" class="last-link">Lifelong Learning</a></li>
+                </ul>
+            </nav>
+            <nav id="mobile-main-nav"></nav>
+        </div>
+
+        <!-- main content -->
+        <div id="main-container">
+            <!-- Slideshow container -->
+            <!-- CREDIT: https://github.com/glauber-sampaio/codepen/tree/master/fullSliderPrototype -->
+            <div id="content">
+                <div id="slider">
+                 <img src="images/home-slide-1.jpg" alt="Beautiful Campus" data-url="#1">
+                 <img src="images/home-slide-2.jpg" alt="Lowcountry Feel" data-url="#2">
+                 <img src="images/home-slide-3.jpg" alt="Caring Faculty" data-url="#3">
+              </div>
+           </div>
+            <!-- ========== Campus Section ========== -->
+            <section id="campus-section">
+                <p class="section-heading" id="section-campus-heading">Discover USCB</p>
+                <img class="campus-card-img" id="bluffton-campus-button" src="../images/bluffton-campus.png" alt="Bluffton Campus" />
+                <img class="campus-card-img" id="beaufort-campus-button" src="../images/beaufort-campus.png" alt="Beaufort Campus" />
+                <img class="campus-card-img" id="hiltonheadisland-campus-button" src="../images/hiltonheadisland-campus.png" alt="Hilton Head Island Campus" />
+                <p class="section-subheading" id="section-campus-subheading">Three distinctive campuses in the Carolina Sea Islands</p>
+                <div id="section-campus-button-group"><button class="campus-section-buttons">REQUEST INFO</button> <button class="campus-section-buttons">SCHEDULE A TOUR</button> <button class="campus-section-buttons">APPLY NOW</button></div>
+            </section>
+
+            <!-- section for news and events -->
+            <section id="news-events">
+                <div id="news-events-grid">
+                    <!-- use grid layout for practice -->
+                    <div id="news-block">
+                        <h3>USCB News</h3>
+                        <div class="news-item">
+                            <div id="news-item-image-1"></div>
+                            <p><a href="#">USCB to Hold Open House, Conduct Ribbon-Cutting Ceremony for Hilton Head Island Campus Nov. 14</a></p>
+                        </div>
+                        <div class="news-item">
+                            <div id="news-item-image-2"></div>
+                            <p><a href="#">USCB Presents Zipporah Camille Thompson Artwork Exhibition</a></p>
+                        </div>
+                        <div class="news-item">
+                            <div id="news-item-image-3"></div>
+                            <p><a href="#">USCB Professor Explains King Tides in Anticipation of Hurricane Michael</a></p>
+                        </div>
+                    </div>
+                    <div id="events-block">
+                        <h3>Events Calendar</h3>
+                        <div class="events-item">
+                            <p><a href="#">Open House &amp; Ribbon-Cutting Ceremony for Hilton Head Island Campus</a></p>
+                            <p><b>Wednesday, November 14, 2018</b></p>
+                            <p>Ribbon Cutting 11am, Open House 11am-4pm</p>
+                            <p>Hilton Head Island campus</p>
+                        </div>
+                        <div class="events-item">
+                            <p><a href="#">Jarod Charzewski Exhibition</a></p>
+                            <p><b>Oct. 5 - Nov. 2, 2018</b></p>
+                            <p>Reception and Gallery Talk: Friday, Oct. 5, 5:30-7:30pm</p>
+                            <p>Sea Island Center Gallery, Beaufort campus</p>
+                        </div>
+                        <div class="events-item last-event-item">
+                            <p><a href="#">Zipporah Camille Thompson Exhibition</a></p>
+                            <p><b>Nov. 8 - Dec. 8, 2018</b></p>
+                            <p>Reception and Gallery Talk: Thursday, Nov. 8, 5-8pm, with talk at 6pm</p>
+                            <p>Sea Island Center Gallery, Beaufort campus</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- footer, including additional navigation links -->
+        <footer>
+            <div id="footer-grid">
+                <h1 class="footer-headings" id="social-heading">Social Links</h1>
+                <h1 class="footer-headings" id="campus-addresses-heading">USCB Campuses and Centers</h1>
+                <h1 class="footer-headings" id="nav-links-heading">Site Navigation</h1>
+                <nav class="footer-nav" id="footer-nav">
+                    <ul id="footer-nav-links">
+                        <li><a href="#">Email Login</a></li>
+                        <li><a href="#">My SC Login</a></li>
+                        <li><a href="#">VIP Login</a></li>
+                        <li><a href="#">Blackboard</a></li>
+                        <li><a href="#">Campus Alerts</a></li>
+                        <li><a href="#">Public Safety</a></li>
+                        <li><a href="#">USCB News</a></li>
+                        <li><a href="#">Jobs at USCB</a></li>
+                        <li><a href="#">Accreditation</a></li>
+                        <li><a href="#">Maps &amp; Directions</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Tuition &amp; Fees</a></li>
+                        <li><a href="#">Registration</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">Dining</a></li>
+                        <li><a href="#">Housing</a></li>
+                        <li><a href="#">ITSS Help Desk</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </nav>
+
+                <div id="campus-addresses-grid">
+                    <div class="address-item" id="bluffton-campus">
+                        <p class="campus-name"><b>Bluffton Campus</b></p>
+                        <p class="campus-description">Our Main Campus</p>
+                        <ul>
+                            <li>Admissions &amp; Campus Tours</li>
+                            <li>Osher Lifelong Learning at USCB</li>
+                        </ul>
+                        <p class="campus-address-line1"><b>Address:</b> One University Boulevard</p>
+                        <p class="campus-address-line2">Bluffton, SC 29909</p>
+                    </div>
+
+                    <div class="address-item" id="beaufort-campus">
+                        <p class="campus-name"><b>Beaufort Campus</b></p>
+                        <p class="campus-description">Historic Downtown Campus</p>
+                        <ul>
+                            <li>Center for the Arts</li>
+                            <li>Sea Islands Center</li>
+                        </ul>
+                        <p class="campus-address-line1"><b>Address:</b> 801 Carteret Street</p>
+                        <p class="campus-address-line2">Beaufort, SC 29902</p>
+                    </div>
+
+                    <div class="address-item" id="hhi-campus">
+                        <p class="campus-name"><b>Hilton Head Island Campus</b></p>
+                        <p class="campus-description">The New Hospitality Management Campus</p>
+                        <ul>
+                            <li>Center for Event Management and Hospitality Training (Sea Pines Resort)</li>
+                            <li>Coastal Ecology Research Project (Harbour Town Marina)</li>
+                        </ul>
+                        <p class="campus-address-line1"><b>Address:</b> One Sand Shark Drive</p>
+                        <p class="campus-address-line2">Hilton Head Island, SC 29928</p>
+                    </div>
+                </div>
+                <!-- <p class="campus-addresses-headings" id="campus-container-phone">Phone: <a href="tel:+1-843-208-8000">(843) 208-8000</a></p> -->
+
+                <div class="footer-column-border-right" id="social-media-links">
+                    <ul>
+                        <li>
+                            <a href="#"><span id="facebook-icon"></span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span id="twitter-icon"></span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span id="instagram-icon"></span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span id="linkedin-icon"></span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span id="vimeo-icon"></span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span id="youtube-icon"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer-copyright">
+                <p class="copyright-legal">Copyright &copy; 2018 by the Board of Trustees of the University of South Carolina</p>
+                <p class="copyright-legal">Copyright Policy &bull; Privacy &bull; General Policies &amp; Procedures</p>
+            </div>
+        </footer>
+        <!-- ========== SlickNav and jQuery ========== -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.js"></script>
+        <script src="js/sticknav.js"></script>
+        <script src="js/plugins/TweenLite.min.js"></script>
+        <script src="js/plugins/TweenMax.min.js"></script>
+        <script src="js/plugins/TimelineMax.min.js"></script>
+        <script src="js/plugins/EasePack.min.js"></script>
+        <script src="js/plugins/CSSPlugin.min.js"></script>
+        <script src="js/plugins/classie.js"></script>
+        <script src="js/carousel_slider.js"></script>
+    </body>
+</html>

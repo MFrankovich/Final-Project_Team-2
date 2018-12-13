@@ -1,0 +1,110 @@
+div#campus-addresses-container {
+    min-height: 190px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+p.campus-name {
+    font-size: 1.6rem;
+    /* 1.2em */
+    margin: 6px 0px 2px 0px;
+}
+
+p.campus-addresses-headings {
+    font-size: 1.6rem;
+}
+p.campus-description {
+    font-style: italic;
+    margin-bottom: 3px;
+}
+p.campus-address-line2 {
+    margin-bottom: 6px;
+}
+div.address-item {
+    text-align: left;
+    font-size: 1.4rem;
+    width: 100%;
+    ul {
+        padding-left: 18px;
+        margin-bottom: 6px;
+    }
+}
+
+p#campus-container-phone {
+    text-align: center;
+    margin-bottom: 8px;
+}
+/* ============================================================================= */
+// ---------------------------------------> Grid Area Names:
+.bluffton-campus {
+    grid-area: bluffton;
+}
+
+.beaufort-campus {
+    grid-area: beaufort;
+}
+
+.hhi-campus {
+    grid-area: hhi;
+}
+
+/* ============================================================================= */
+// ---------------------------------------> Grid & Media Queries:
+
+#campus-addresses-grid {
+    display: grid;
+    grid-template-areas: "bluffton beaufort hhi";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    width: 750px;
+    margin: 0 auto;
+    justify-items: center;
+    padding: 10px 20px 10px 20px;
+    border-right: 2px solid rgba(236, 236, 236, 0.568);
+
+    @media screen and (max-width: 1200px) {
+        grid-template-areas: "bluffton beaufort hhi";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+        width: 750px;
+        justify-items: center;
+        padding: 10px 20px 10px 20px;
+    }
+    @media screen and (max-width: 1080px) {
+        grid-template-areas: "bluffton beaufort hhi";
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-column-gap: 5px;
+        width: 820px;
+        margin: 0 auto;
+        border-right: none;
+    }
+    @media screen and (max-width: 850px) {
+        grid-template-areas:
+            "bluffton beaufort"
+            "hhi hhi";
+        grid-template-columns: 1fr 1fr;
+        width: 600px;
+
+    }
+    @media screen and (max-width: 610px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 475px) {
+        grid-template-areas: "bluffton" "beaufort" "hhi";
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: 10px 12px 10px 12px;
+    }
+}
+#hhi-campus {
+    @media screen and (max-width: 850px) {
+        grid-column: 1/-1;
+    }
+}
+div.address-item {
+    text-align: left;
+    font-size: 1.4rem;
+    @media screen and (max-width: 505px) {
+        font-size: 1.3rem;
+    }
+}

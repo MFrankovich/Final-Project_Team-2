@@ -1,0 +1,123 @@
+/* FOOTER, INCLUDING BOTTOM NAVIGATION */
+footer { width: 100%; background-image: -webkit-gradient(linear, left top, left bottom, from(#9c182f), to(#000)); background-image: linear-gradient(#9c182f, #000); }
+
+#footer-copyright { padding: 7px; background: #20050975; width: 100%; text-align: center; font-size: 1.2rem; }
+
+.copyright-legal { margin-bottom: 4px; }
+
+/* ----------------------------------------------------------------------- */
+#facebook-icon { background-image: url("../../images/svg/facebook_circle.svg"); }
+
+#twitter-icon { background-image: url("../../images/svg/twitter_circle.svg"); }
+
+#instagram-icon { background-image: url("../../images/svg/instagram_circle.svg"); }
+
+#linkedin-icon { background-image: url("../../images/svg/linkedin_circle.svg"); }
+
+#vimeo-icon { background-image: url("../../images/svg/vimeo_circle.svg"); }
+
+#youtube-icon { background-image: url("../../images/svg/youtube_circle.svg"); }
+
+div#social-media-links ul { text-align: center; padding: 0px 5px 10px 5px; }
+
+div#social-media-links ul li { display: inline; }
+
+div#social-media-links ul li a span { width: 48px; height: 48px; display: inline-block; background-repeat: no-repeat; margin: 0 3px 0 3px; }
+
+@media screen and (max-width: 1000px) { div#social-media-links ul li a span { width: 43px; height: 43px; margin: 3px; } }
+
+@media screen and (max-width: 400px) { div#social-media-links ul li a span { width: 40px; height: 40px; } }
+
+@media screen and (max-width: 300px) { div#social-media-links ul li a span { width: 36px; height: 36px; } }
+
+/* -------------------------------------------------------> The Grid Names */
+#social-media-links { -ms-grid-row: 2; -ms-grid-column: 1; grid-area: social-icons; }
+
+#footer-nav { -ms-grid-row: 2; -ms-grid-column: 3; grid-area: nav; }
+
+#campus-addresses-container { -ms-grid-row: 2; -ms-grid-column: 2; grid-area: addresses-grid; }
+
+#social-heading { -ms-grid-row: 1; -ms-grid-column: 1; grid-area: social-heading; }
+
+#campus-addresses-heading { -ms-grid-row: 1; -ms-grid-column: 2; grid-area: addresses-heading; }
+
+#nav-links-heading { -ms-grid-row: 1; -ms-grid-column: 3; grid-area: nav-links-heading; }
+
+/* -------------------------------------------------------> The Grid */
+#footer-grid { display: -ms-grid; display: grid; grid-template-areas: 'social-heading addresses-heading nav-links-heading' 'social-icons addresses-grid nav'; -ms-grid-columns: 170px 3fr 2fr; grid-template-columns: 170px 3fr 2fr; padding-top: 15px; border-left: 2px solid rgba(236, 236, 236, 0.685); border-right: 2px solid rgba(236, 236, 236, 0.685); border-bottom: 2px solid rgba(236, 236, 236, 0.685); width: 1640px; margin: 0 auto; }
+
+@media screen and (max-width: 1650px) { #footer-grid { display: -ms-grid; display: grid; grid-template-areas: 'social-heading addresses-heading nav-links-heading' 'social-icons addresses-grid nav'; -ms-grid-columns: 170px 3fr 2fr; grid-template-columns: 170px 3fr 2fr; padding-top: 15px; border-left: none; border-right: none; width: 100%; } }
+
+@media screen and (max-width: 1250px) { #footer-grid { grid-template-areas: 'addresses-heading nav-links-heading' 'addresses-grid nav' 'social-heading social-heading' 'social-icons social-icons'; -ms-grid-columns: 2fr 1fr; grid-template-columns: 2fr 1fr; } }
+
+@media screen and (max-width: 1080px) { #footer-grid { grid-template-areas: 'addresses-heading' 'addresses-grid' 'nav-links-heading' 'nav' 'social-heading' 'social-icons'; -ms-grid-columns: 1fr; grid-template-columns: 1fr; } }
+
+@media screen and (max-width: 475px) { #footer-grid { grid-template-areas: 'addresses-heading' 'addresses-grid' 'nav-links-heading' 'nav' 'social-heading' 'social-icons'; -ms-grid-columns: 1fr; grid-template-columns: 1fr; } }
+
+.footer-headings { font-size: 1.6rem; text-align: center; padding-bottom: 4px; border-bottom: 2px solid rgba(236, 236, 236, 0.568); margin: 5px 0px 0px 0px; }
+
+.footer-column-border-right { border-right: 2px solid rgba(236, 236, 236, 0.568); }
+
+#social-media-links { padding-top: 10px; }
+
+#social-heading { border-top: 2px solid rgba(236, 236, 236, 0.568); padding: 20px 0px 0px 0px; margin: 0px; }
+
+@media screen and (min-width: 1250px) { #social-heading { border-top: none; margin: 5px 0px 0px 0px; } }
+
+@media screen and (max-width: 1080px) { #social-heading { border-top: none; margin: 5px 0px 0px 0px; } }
+
+/* -------------------------------------------------------> The Grid Names */
+/* #social-media-links { grid-area: social-icons; }
+#footer-nav { grid-area: nav; }
+#campus-addresses-container { grid-area: addresses-grid; } */
+/* -------------------------------------------------------> The Grid */
+#footer-nav-links { display: -ms-grid; display: grid; -ms-grid-columns: (minmax(120px, 1fr))[auto-fit]; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); grid-column-gap: 5px; margin: 12px 15px 12px 15px; }
+
+footer nav.footer-nav ul li { display: inline; margin: 4px; }
+
+footer nav.footer-nav ul li a { padding: 0 0.5em; font-size: 1.4rem; }
+
+@media screen and (max-width: 650px) { footer nav.footer-nav ul li a { padding: 0 0.5em; font-size: 1.3rem; } }
+
+div#campus-addresses-container { min-height: 190px; font-size: 1.2rem; text-align: center; }
+
+p.campus-name { font-size: 1.6rem; /* 1.2em */ margin: 6px 0px 2px 0px; }
+
+p.campus-addresses-headings { font-size: 1.6rem; }
+
+p.campus-description { font-style: italic; margin-bottom: 3px; }
+
+p.campus-address-line2 { margin-bottom: 6px; }
+
+div.address-item { text-align: left; font-size: 1.4rem; width: 100%; }
+
+div.address-item ul { padding-left: 18px; margin-bottom: 6px; }
+
+p#campus-container-phone { text-align: center; margin-bottom: 8px; }
+
+/* ============================================================================= */
+.bluffton-campus { -ms-grid-row: 1; -ms-grid-column: 1; grid-area: bluffton; }
+
+.beaufort-campus { -ms-grid-row: 1; -ms-grid-column: 2; grid-area: beaufort; }
+
+.hhi-campus { -ms-grid-row: 1; -ms-grid-column: 3; grid-area: hhi; }
+
+/* ============================================================================= */
+#campus-addresses-grid { display: -ms-grid; display: grid; grid-template-areas: "bluffton beaufort hhi"; -ms-grid-columns: 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 5px; width: 750px; margin: 0 auto; justify-items: center; padding: 10px 20px 10px 20px; border-right: 2px solid rgba(236, 236, 236, 0.568); }
+
+@media screen and (max-width: 1200px) { #campus-addresses-grid { grid-template-areas: "bluffton beaufort hhi"; -ms-grid-columns: 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 10px; width: 750px; justify-items: center; padding: 10px 20px 10px 20px; } }
+
+@media screen and (max-width: 1080px) { #campus-addresses-grid { grid-template-areas: "bluffton beaufort hhi"; -ms-grid-columns: 1fr 1fr 2fr; grid-template-columns: 1fr 1fr 2fr; grid-column-gap: 5px; width: 820px; margin: 0 auto; border-right: none; } }
+
+@media screen and (max-width: 850px) { #campus-addresses-grid { grid-template-areas: "bluffton beaufort" "hhi hhi"; -ms-grid-columns: 1fr 1fr; grid-template-columns: 1fr 1fr; width: 600px; } }
+
+@media screen and (max-width: 610px) { #campus-addresses-grid { width: 100%; } }
+
+@media screen and (max-width: 475px) { #campus-addresses-grid { grid-template-areas: "bluffton" "beaufort" "hhi"; -ms-grid-columns: 1fr; grid-template-columns: 1fr; justify-items: center; padding: 10px 12px 10px 12px; } }
+
+@media screen and (max-width: 850px) { #hhi-campus { grid-column: 1/-1; } }
+
+div.address-item { text-align: left; font-size: 1.4rem; }
+
+@media screen and (max-width: 505px) { div.address-item { font-size: 1.3rem; } }
+/*# sourceMappingURL=bottom-all.css.map */

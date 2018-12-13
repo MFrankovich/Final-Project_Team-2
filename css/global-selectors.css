@@ -1,0 +1,11 @@
+/* All Global Selectors Placed Here */
+* { margin: 0; padding: 0; }
+
+html { background-color: #3d3a33; font-size: 10px; }
+
+body { font-family: "Open Sans", sans-serif; color: #ffffff; }
+
+a { color: #fff; /* equivalent to #ffffff */ text-decoration: none; }
+
+a:hover { color: #ffdf8e; }
+/*# sourceMappingURL=global-selectors.css.map */

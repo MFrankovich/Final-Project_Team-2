@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../styles/sass/footer-media-queries.scss"
+    ],
+    "names": [],
+    "file": "footer-media-queries.css"
+}

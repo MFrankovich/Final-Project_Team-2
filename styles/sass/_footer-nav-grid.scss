@@ -1,0 +1,26 @@
+/* -------------------------------------------------------> The Grid Names */
+/* #social-media-links { grid-area: social-icons; }
+#footer-nav { grid-area: nav; }
+#campus-addresses-container { grid-area: addresses-grid; } */
+
+/* -------------------------------------------------------> The Grid */
+
+#footer-nav-links {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(120px, 1fr) );
+    grid-column-gap: 5px;
+    margin: 12px 15px 12px 15px;
+}
+
+footer nav.footer-nav ul li {
+    display: inline;
+    margin: 4px;
+}
+footer nav.footer-nav ul li a {
+    padding: 0 0.5em;
+    font-size: 1.4rem;
+    @media screen and (max-width: 650px) {
+        padding: 0 0.5em;
+        font-size: 1.3rem;
+    }
+}

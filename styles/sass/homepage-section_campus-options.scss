@@ -1,0 +1,227 @@
+/* ========================================== */
+
+/* The Grid Area Names */
+
+#section-campus-heading {
+    grid-area: heading;
+}
+
+#section-campus-subheading {
+    grid-area: subheading;
+}
+
+.card-1 {
+    grid-area: card-1;
+}
+
+.card-2 {
+    grid-area: card-2;
+}
+
+.card-3 {
+    grid-area: card-3;
+}
+
+#section-campus-button-group {
+    grid-area: button-group;
+}
+
+/* ========================================== */
+
+/* Default Styles */
+
+/* -------------------------------------------------------> The Section */
+
+#campus-section {
+    display: grid;
+    margin: auto;
+    grid-template-areas: 'heading heading heading' 'card-1 card-2 card-3' 'subheading subheading subheading' 'button-group button-group button-group';
+    grid-row-gap: 8px;
+    grid-column-gap: 8px;
+    justify-items: center;
+    align-content: center;
+    padding: 8px;
+    max-width: 972px;
+    background-color: #838b8b;
+}
+
+/* -------------------------------------------------------> The Title and p tag margins */
+
+section#campus-section {
+    p {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+#section-campus-heading {
+    font-size: 2.2rem;
+}
+
+/* -------------------------------------------------------> The Images */
+
+.campus-card-img {
+    width: 320px;
+    height: 120px;
+}
+
+/* -------------------------------------------------------> The Subheading */
+
+#section-campus-subheading {
+    margin: 2px 0px 2px 0px;
+    font-size: 1.8rem;
+}
+
+/* ------------------------------------------------------->  The Buttons */
+
+button.campus-section-buttons {
+    font-size: 1.4rem;
+    padding: 0.6rem;
+    width: 150px;
+    margin: 0px 5px 5px 5px;
+    background-color: #505250;
+    border-block-start-color: #f0f8ff;
+    border-block-end-color: #f0f8ff;
+    border-color: #f0f8ff;
+    &:hover {
+        background-color: #434343;
+        color: #ffdf8e;
+    }
+}
+
+/* =========================================================================================== */
+
+/* =========================================================================================== */
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 991px) {
+    .campus-card-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    button.campus-section-buttons {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        width: 125px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    #section-campus-subheading {
+        font-size: 1.7rem;
+    }
+}
+
+/* ========================================== */
+
+@media screen and (max-width: 650px) {
+    #campus-section {
+        grid-column-gap: 3px;
+    }
+    #section-campus-subheading {
+        font-size: 1.6rem;
+    }
+}
+
+/* ========================================== */
+
+/* Large Tables Styles & Grid */
+
+@media screen and (max-width: 620px) {
+    #campus-section {
+        display: grid;
+        grid-template-areas: 'heading' 'card-1' 'card-1' 'card-2' 'card-3' 'subheading' 'button-group';
+    }
+    .campus-card-img {
+        width: auto;
+        height: 120;
+    }
+    #section-campus-subheading {
+        font-size: 1.5rem;
+    }
+}
+
+/* ========================================== */
+
+/* Large Phones Styles & Grid */
+
+@media screen and (max-width: 500px) {
+    button.campus-section-buttons {
+        font-size: 1rem;
+        width: 110px;
+    }
+}
+
+/* ========================================== */
+
+/* Tablet Styles & Grid */
+
+@media screen and (max-width: 400px) {
+    #section-campus-heading {
+        font-size: 2.1rem;
+    }
+    #section-campus-subheading {
+        font-size: 1.4rem;
+    }
+    button.campus-section-buttons {
+        font-size: 0.8rem;
+        padding: 0.4rem;
+        width: 90px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+}
+
+/* ========================================== */
+
+/* Small Mobile Styles & Grid */
+
+@media screen and (max-width: 365px) {
+    #section-campus-subheading {
+        font-size: 1.3rem;
+    }
+}
+
+/* ========================================== */
+
+/* XSmall Mobile Styles & Grid */
+
+@media screen and (max-width: 325px) {
+    .campus-card-img {
+        width: 100%;
+        height: auto;
+    }
+    #section-campus-subheading {
+        font-size: 1.3rem;
+    }
+}
+
+/* ========================================== */
+
+/* Default Styles */
+
+/* #campus-section {
+    display: grid;
+    grid-template-areas:
+        'heading heading heading'
+        'card-1 card-2 card-3'
+        'subheading subheading subheading'
+        'button-group button-group button-group';
+    grid-row-gap: 8px;
+    justify-items: center;
+    align-content: center;
+    padding: 8px 0px 8px 0px;
+}
+#section-campus-subheading {
+    font-size: 1.5rem;
+}
+div.card {
+    min-width: 100px;
+    width: 320px;
+    height: 120px;
+    margin: 0 0;
+    color: transparent;
+} */

@@ -1,0 +1,25 @@
+/* FOOTER, INCLUDING BOTTOM NAVIGATION */
+
+footer {
+    width: 100%;
+    background-image: linear-gradient( #9c182f, #000);
+}
+#footer-copyright {
+    padding: 7px;
+    background: #20050975;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.copyright-legal {
+    margin-bottom: 4px;
+}
+
+/* ----------------------------------------------------------------------- */
+@import "social-icons";
+@import "footer-social-links";
+@import "footer-main-grid";
+@import "footer-nav-grid";
+@import "footer-campus-grid";
+
+
