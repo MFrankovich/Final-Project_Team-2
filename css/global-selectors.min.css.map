@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,CAAC,AAAC,CACE,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACb,AAED,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,OAAO,CACzB,SAAS,CAAE,IAAI,CAClB,AAED,AAAA,IAAI,AAAC,CACD,WAAW,CAAE,uBAAuB,CACpC,KAAK,CAAE,OAAO,CACjB,AAED,AAAA,CAAC,AAAC,CACE,KAAK,CAAE,IAAI,CAEX,eAAe,CAAE,IAAI,CACxB,AAED,AAAA,CAAC,AAAA,MAAM,AAAC,CACJ,KAAK,CAAE,OAAO,CACjB",
+    "sources": [
+        "../styles/sass/global-selectors.scss"
+    ],
+    "names": [],
+    "file": "global-selectors.min.css"
+}
